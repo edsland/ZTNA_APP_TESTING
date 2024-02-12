@@ -19,6 +19,7 @@ services:
       - MINIO_ROOT_USER: ${APPUSER}
       - MINIO_ROOT_PASSWORD: ${SECRET}
       - MINIO_DEFAULT_BUCKETS: default
+
   db:
     image: mariadb
     ports:
