@@ -30,7 +30,7 @@ services:
       - MYSQL_PASSWORD: ${SECRET}
       - MYSQL_ROOT_PASSWORD: ${SECRET}
       - MY_SQL_DATABASE: mydatabase
-     		
+
 volumes:
     data1:
     data2:
